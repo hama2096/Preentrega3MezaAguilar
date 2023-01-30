@@ -1,0 +1,269 @@
+/* nav*/
+.menu{
+    height: 12%;
+    width: 100%;
+    position: fixed;
+    border-color: black;
+    border-style: dashed;
+    font-family: 'Roboto', sans-serif;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffc238;
+}
+
+.btn_search{
+    background-color: black;
+    color: white;
+}
+
+.img_nav{
+    width: 40%;
+    margin: 0%;
+}
+
+.miel{
+    border-radius: 5%;
+ }
+/* Cierra Nav*/
+ .principal{
+    height: 80%;
+    margin-top: 5%;
+    border-color: black;
+    border-style: dashed;
+    background-color: #fdf5e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*  Cuerpo del home */
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 400% ;
+    margin-top: 3%;
+}
+
+.inf_principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+ 
+/* Cartas informativas*/
+
+.card{
+    width: 15%;
+    height: 15%;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.btn-car{
+    background-color: #ffc238;
+}
+
+.btn-car:hover{
+    background-color: goldenrod;
+}
+
+/* Pie de página con redes sociales*/
+.footer_redes{
+    background-color: #ffc238;
+    height: 10%;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    border-style: dashed;
+    position: fixed;
+}
+
+.btn{
+    padding: 0%;
+}
+.facebook{
+    height: 5%;
+    width: 5%;
+}
+
+.instagram{
+    height: 5%;
+    width: 5%;
+}
+
+/* H2 páginas secundarias*/
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 300% ;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/* Formulario*/
+
+.form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+  
+.title {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+/* Style the inputs */
+
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+  
+/* Hide the placeholder texts (a) */
+  
+::placeholder {
+    color: transparent;
+}
+
+/* Styling text labels */
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+  }
+
+  .submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .submitBtn:hover {
+    background-color: lightslategray;
+    transform: translateY(-2px);
+  }
+
+  .input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+  }
+
+  .input:focus {
+    border: 2px solid black;
+  }
+
+
+/* recetas */
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+  }
+  
+  .recipe-card {
+    background: #fff;
+    margin: 4em auto;
+    width: 90%;
+    max-width: 496px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .recipe-card .icon {
+    display: inline;
+    display: inline-block;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/recipe-card-icons.svg);
+    background-repeat: no-repeat;
+  }
+  .recipe-card .icon-calories, .recipe-card .icon-calories\:regular {
+    background-position: 0 0;
+    width: 16px;
+    height: 19px;
+  }
+  .recipe-card .icon-clock, .recipe-card .icon-clock\:regular {
+    background-position: 0 -19px;
+    width: 20px;
+    height: 20px;
+  }
+  .recipe-card .icon-level, .recipe-card .icon-level\:regular {
+    background-position: 0 -39px;
+    width: 16px;
+    height: 19px;
+  }
+  .recipe-card .icon-play, .recipe-card .icon-play\:regular {
+    background-position: 0 -58px;
+    width: 21px;
+    height: 26px;
+  }
+  .recipe-card .icon-users, .recipe-card .icon-users\:regular {
+    background-position: 0 -84px;
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .principal_recetas{
+    height: 80%;
+    margin-top: 5%;
+    border-color: black;
+    border-style: dashed;
+    background-color: #fdf5e6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
